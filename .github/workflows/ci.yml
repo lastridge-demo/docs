@@ -1,0 +1,24 @@
+name: ci
+on:
+  push:
+    branches: [main]
+    # Only documentation changes deploy the docs site, so the lane is quiet
+    # most of the time: the board should show that as neutral, not green.
+    paths: ['docs/**', 'src/**']
+jobs:
+  deploy:
+    name: deploy
+    runs-on: ubuntu-latest
+    environment:
+      name: prod
+      url: https://acme.observif.ai/docs/prod
+    steps:
+      - uses: actions/checkout@v4
+      - name: build site
+        run: |
+          mkdir -p out && for f in docs/*.md; do echo "<pre>$(cat "$f")</pre>" > "out/$(basename "$f" .md).html"; done
+          echo "built $(ls out | wc -l) pages"
+      - name: publish
+        run: scripts/deploy.sh prod
+        env:
+          ACME_DEPLOY_TOKEN: ${{ secrets.ACME_DEPLOY_TOKEN }}
