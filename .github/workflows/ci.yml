@@ -11,7 +11,7 @@ jobs:
     runs-on: ubuntu-latest
     environment:
       name: prod
-      url: https://acme.observif.ai/docs/prod
+      url: https://acme.shipglance.com/docs/prod
     steps:
       - uses: actions/checkout@v4
       - name: build site
