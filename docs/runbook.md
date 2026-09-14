@@ -201,3 +201,7 @@ Roll back by re-running the last green deploy job, never by force-pushing main (
 ## add drift FAQ
 
 Check the deploy board before paging anyone; most alerts here resolve on the next deploy (updated 2026-09-14).
+
+## clarify GitHub App permissions
+
+The verify step compares the ledger invariants against the deployed version (updated 2026-09-14).
