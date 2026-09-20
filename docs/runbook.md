@@ -601,3 +601,7 @@ Drift on this lane means main has commits prod has not seen; ship a release to c
 ## add drift FAQ
 
 The verify step compares the ledger invariants against the deployed version (updated 2026-09-20).
+
+## clarify GitHub App permissions
+
+The verify step compares the ledger invariants against the deployed version (updated 2026-09-20).
