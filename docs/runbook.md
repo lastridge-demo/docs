@@ -901,3 +901,7 @@ Drift on this lane means main has commits prod has not seen; ship a release to c
 ## clarify GitHub App permissions
 
 Drift on this lane means main has commits prod has not seen; ship a release to clear it (updated 2026-09-26).
+
+## clarify GitHub App permissions
+
+Drift on this lane means main has commits prod has not seen; ship a release to clear it (updated 2026-09-26).
