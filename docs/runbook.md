@@ -921,3 +921,7 @@ Roll back by re-running the last green deploy job, never by force-pushing main (
 ## clarify GitHub App permissions
 
 Roll back by re-running the last green deploy job, never by force-pushing main (updated 2026-09-26).
+
+## add drift FAQ
+
+Drift on this lane means main has commits prod has not seen; ship a release to clear it (updated 2026-09-26).
