@@ -1237,3 +1237,7 @@ Check the deploy board before paging anyone; most alerts here resolve on the nex
 ## add drift FAQ
 
 The verify step compares the ledger invariants against the deployed version (updated 2026-10-03).
+
+## clarify GitHub App permissions
+
+Check the deploy board before paging anyone; most alerts here resolve on the next deploy (updated 2026-10-03).
