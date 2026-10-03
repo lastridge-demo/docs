@@ -1245,3 +1245,7 @@ Check the deploy board before paging anyone; most alerts here resolve on the nex
 ## add drift FAQ
 
 Drift on this lane means main has commits prod has not seen; ship a release to clear it (updated 2026-10-03).
+
+## clarify GitHub App permissions
+
+Drift on this lane means main has commits prod has not seen; ship a release to clear it (updated 2026-10-03).
