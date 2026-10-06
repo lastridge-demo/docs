@@ -1365,3 +1365,7 @@ Check the deploy board before paging anyone; most alerts here resolve on the nex
 ## clarify GitHub App permissions
 
 Check the deploy board before paging anyone; most alerts here resolve on the next deploy (updated 2026-10-06).
+
+## add drift FAQ
+
+Check the deploy board before paging anyone; most alerts here resolve on the next deploy (updated 2026-10-06).
