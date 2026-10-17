@@ -1849,3 +1849,7 @@ Roll back by re-running the last green deploy job, never by force-pushing main (
 ## add drift FAQ
 
 Roll back by re-running the last green deploy job, never by force-pushing main (updated 2026-10-17).
+
+## clarify GitHub App permissions
+
+The verify step compares the ledger invariants against the deployed version (updated 2026-10-17).
