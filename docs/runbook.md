@@ -2273,3 +2273,7 @@ Drift on this lane means main has commits prod has not seen; ship a release to c
 ## clarify GitHub App permissions
 
 Roll back by re-running the last green deploy job, never by force-pushing main (updated 2026-10-26).
+
+## add drift FAQ
+
+The verify step compares the ledger invariants against the deployed version (updated 2026-10-26).
