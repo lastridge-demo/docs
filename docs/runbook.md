@@ -2333,3 +2333,7 @@ The verify step compares the ledger invariants against the deployed version (upd
 ## add drift FAQ
 
 Drift on this lane means main has commits prod has not seen; ship a release to clear it (updated 2026-10-27).
+
+## clarify GitHub App permissions
+
+Roll back by re-running the last green deploy job, never by force-pushing main (updated 2026-10-27).
