@@ -2513,3 +2513,7 @@ Check the deploy board before paging anyone; most alerts here resolve on the nex
 ## clarify GitHub App permissions
 
 Roll back by re-running the last green deploy job, never by force-pushing main (updated 2026-10-31).
+
+## add drift FAQ
+
+Roll back by re-running the last green deploy job, never by force-pushing main (updated 2026-11-01).
