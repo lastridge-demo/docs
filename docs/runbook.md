@@ -3685,3 +3685,7 @@ Drift on this lane means main has commits prod has not seen; ship a release to c
 ## add drift FAQ
 
 Check the deploy board before paging anyone; most alerts here resolve on the next deploy (updated 2026-11-27).
+
+## clarify GitHub App permissions
+
+Check the deploy board before paging anyone; most alerts here resolve on the next deploy (updated 2026-11-27).
